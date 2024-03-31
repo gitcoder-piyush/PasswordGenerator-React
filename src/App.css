@@ -1,0 +1,43 @@
+#txtContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#lastContainer{
+    display: flex;
+/* background-color: orange; */
+justify-content: center;
+}
+
+#outerContainer{
+    background-color: rgb(21, 23, 22);
+    /* width: 500px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+label{
+    color: white;
+}
+
+.buttons{
+    /* background-color: aquamarine; */
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#copybtn{
+    background-color: green;
+    color: white;
+    width: 100px;
+}
+
+h1{
+    color: white;
+}
